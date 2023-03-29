@@ -12,3 +12,14 @@ etc.
 
 users = ["annie","betty","charles","doug","eddie","flon"]
 passwords = ["12345","password","iloveyou","mom","default","0"]
+
+
+x = input("enter username: ")
+if x in users:
+    y = input("enterpasswords: ")
+    if y in passwords:
+        print("access granted")
+    else:
+        print("access denied")
+else:
+    print("access denied")
